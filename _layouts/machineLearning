@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html lang="en">
+
+{% include headRetrieval.html %}
+
+<body id="page-top">
+  {% include nav.html %}
+  {% include machineLearning.html %}
+  {% include scripts.html %}
+</body>
+
+</html>
