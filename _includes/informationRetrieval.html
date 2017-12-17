@@ -1,19 +1,36 @@
-<section class="bg-primary" id="about">
+<section class="bg-dark" id="about">
     <div class="container">
-        <div class="row">
-            <div class="col-lg-8 col-lg-offset-2 text-center">
+        <div class="row row-grid">
+            <div class="col-lg-8 col-lg-offset-2 text-center ">
+
                 <h2 class="section-heading">Information Retrieval</h2>
                 <hr class="light">
-                <p >In this project I evaluated the use of character n-grams for the task of Author Profiling using data from the  <a href="http://pan.webis.de/" style="text-decoration:none;">PAN 2015</a>. Two variables were considered for the project: Age and sex. We wanted to obtain a high precision and recall in order to known the age group and sex of a given author. The baseline for this work was the bag of words BoW approach. Using cross-validation, the data was randomly partitioned and 70% was to training while the rest for testing purposes. To train the classifier a support vector machine was used.
+                <p class="text-justify"> In this project I evaluated the use of character n-grams for the task of Author Profiling using data from the  <a href="http://pan.webis.de/" style="text-decoration:none;">PAN 2015</a>. Two variables were considered for the project: Age and sex. We wanted to obtain a high precision and recall in order to known the age group and sex of a given author. The baseline for this work was the bag of words BoW approach. Using cross-validation, the data was randomly partitioned and 70% was to training while the rest for testing purposes. To train the classifier a support vector machine was used.</p>
                 
-                </p>
+                <p class="text-justify"><br></p>                  
+            </div>                
+        </div>
+
+        <div class="row row-grid">
+            <div class="col-lg-8 col-lg-offset-2 text-center">
+                <h2 class="section-heading">Results</h2>
+                <hr class="light">
+                <p class="text-justify">We obtained results comparable to the BoW approach for sex, however for age the performance was not great, achieving between 54-57% for precision and recall. In order to gain information about the distribution of data in the sets, a statistical analysis was done. The analysis show the classes where unbalanced, thus it had an impact in the design of the experiment. Further research is still to be done however, that focuses on the problem of limited characters of the data set against the information gained from n-grams, particularly in style of the authors.</p>
                 
-                <p >We obtained results comparable to the BoW approach for sex, however for age the performance was not great, achieving between 54-57% for precision and recall. In order to gain information about the distribution of data in the sets, a statistical analysis was done. The analysis show the classes where unbalanced, thus it had an impact in the design of the experiment. Further research is still to be done however, that focuses on the problem of limited characters of the data set against the information gained from n-grams, particularly in style of the authors.</p>
+                <!-- <a href="https://github.com/JosueCastaneda/informationRetrieval_INAOE" class="btn btn-default btn-xl">Source Code</a>.</p> -->
                 
-                <a href="https://github.com/JosueCastaneda/informationRetrieval_INAOE" class="btn btn-default btn-xl">Source Code</a>
-                
-                <a href="index.html" class="btn btn-default btn-xl">Back</a>
+                <p class="text-justify"><br></p>                  
+            </div>
+
+        </div>
+
+        <div class="row row-grid">
+            <div class="col-lg-8 col-lg-offset-2 text-center">
+                <h2 class="section-heading">Main Page</h2>
+                <hr class="light">
+                <a href="index.html" class="btn btn-default btn-xl">Back</a>                
             </div>
         </div>
+
     </div>
 </section>
